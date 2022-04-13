@@ -1,0 +1,71 @@
+---
+title: "The Sodaz Company "
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### The Sodaz Company sells two products Strawberry Soda, and Orange Soda.
+#### Prices:
+- Strawberry Soda $12
+- Orange Soda 24$
+
+##### Both sodas require water, CO2, and Flavoring as their main ingredients:
+##### The following quantities available:
+- 150 ounces of water
+- 480 grams of CO2
+- 1190 pounds of flavoring.
+
+###### A batch of Strawberry Soda consumes 5 ounces water, 4 grams CO2, and 35 pounds flavoring.
+###### A batch of the Orange Soda consumes 15 ounces of water, 4 grams of CO2, and 20 pounds of flavoring.
+##### The constraints as matrix 
+$\left[\begin{array}{ccc}
+5 & 15\\
+4 & 4\\
+35 & 20 \\
+\end{array}\right]$
+
+##### The total batches of Strawberry Soda and Orange Soda that we can make to get the maximum profit possible is:
+0 Strawberry and 15 Orange
+
+##### Maximum profit is:
+360$
+
+_________________________________________________________________________________
+
+### The Sodaz Company is coming up with a hot new beverage called Grapye`
+
+#### Prices:
+- Strawberry Soda $12
+- Orange Soda 24$
+- Grapye Soda 35$
+
+##### Both sodas require water, CO2, and Flavoring as their main ingredients:
+##### The following quantities available:
+- 150 ounces of water
+- 480 grams of CO2
+- 1190 pounds of flavoring.
+
+###### A batch of Strawberry Soda consumes 5 ounces water, 4 grams CO2, and 35 pounds flavoring.
+###### A batch of the Orange Soda consumes 15 ounces of water, 4 grams of CO2, and 20 pounds of flavoring.
+###### A batch of the Grapye It uses 10 ounces of water, 4g of CO2, and 15 pounds of flavoring. 
+##### The constraints as matrix 
+$\left[\begin{array}{ccc}
+5 & 15 & 10\\
+4 & 4 & 4\\
+35 & 20 & 15\\
+5 & 10 & 20 \\
+\end{array}\right]$
+
+##### The total batches of  Soda that we can make to get the maximum profit possible is:
+0 Strawberry, 0 Orange, and 15 Grapye
+
+##### Maximum profit is:
+450$
+
+
+
+
